@@ -20,6 +20,16 @@ a{text-decoration: none;}
     text-align: right;
     background:#ddd;
     padding:5px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header .header-top .con{
+    width:92%;
+}
+#header .header-top .top-bar{
+    /* width:50%; */
 }
 #header .header-top a{
     margin-right:10px;
@@ -34,6 +44,24 @@ a{text-decoration: none;}
     color:rgb(241, 141, 26);
     transition: .2s all ease-in-out;
 }
+#header .header-top .button{
+    background:whitesmoke;
+    width:40px;
+    height:20px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+
+#header .header-top .button .dark{
+    background: rgba(0, 0, 0, 0.678);
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
+
+
+
 #header nav .navbar-brand{
     font-family: 'Lobster', cursive;
 }
